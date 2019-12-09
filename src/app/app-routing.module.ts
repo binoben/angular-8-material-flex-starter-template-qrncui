@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from "./home/home.component";
 import { TestComponent } from "./test/test.component";
+import { BenComponent } from "./ben/ben.component";
 
 const routes: Routes = [
   {
@@ -20,6 +21,11 @@ const routes: Routes = [
     path: 'test',
     pathMatch: 'full',
     component: TestComponent,
+  },
+  {
+    path: 'ben',
+    pathMatch: 'full',
+    component: BenComponent,
   },
 ];
 
