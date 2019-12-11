@@ -1,0 +1,24 @@
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.purple{
+  background-color: purple;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.blue{
+  background-color: blue;
+}
+
+
+div{ border: 1px solid black}
+
+.start{
+  margin-right: auto;
+}
