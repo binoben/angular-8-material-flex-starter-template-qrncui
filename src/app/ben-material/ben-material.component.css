@@ -10,3 +10,7 @@ div{ border: 1px solid black} */
 ::ng-deep .mat-form-field-infix {
     width: auto !important;
 }
+
+.blue{
+  background-color: blue;
+}
