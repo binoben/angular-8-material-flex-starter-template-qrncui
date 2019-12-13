@@ -1,0 +1,11 @@
+.navbar{
+  background-color: darkblue;
+}
+.navbar>.mat-button{
+  color: white;
+}
+
+.navbar>div>p{
+  color: white;
+  padding-left: 20px;
+}

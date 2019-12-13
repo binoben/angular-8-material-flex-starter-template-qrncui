@@ -5,6 +5,7 @@ import { HomeComponent } from "./home/home.component";
 import { TestComponent } from "./test/test.component";
 import { BenComponent } from "./ben/ben.component";
 import { BenMaterialComponent } from "./ben-material/ben-material.component";
+import { BenMenuComponent } from "./ben-menu/ben-menu.component";
 
 const routes: Routes = [
   {
@@ -31,6 +32,11 @@ const routes: Routes = [
     path: "ben-material",
     pathMatch: "full",
     component: BenMaterialComponent
+  },
+  {
+    path: "ben-menu",
+    pathMatch: "full",
+    component: BenMenuComponent
   }
 ];
 
