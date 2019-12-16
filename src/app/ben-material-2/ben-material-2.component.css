@@ -13,3 +13,11 @@ div{ border: 1px solid black} */
 ::ng-deep .mat-form-field-infix {
     width: auto !important;
 }
+
+
+  .mat-badge-medium.mat-badge-above .mat-badge-content {
+    top: -25px;
+}
+.badge{
+      margin-left: -3% !important;
+}
