@@ -1,0 +1,244 @@
+<div fxLayout="column" style="margin:20px" fxLayoutGap="20px">
+	<div fxLayout="row-reverse" fxLayoutAlign="flex-start center" fxLayoutGap="5px">
+		<button mat-icon-button aria-label="Example icon-button with a heart icon">
+    <mat-icon>delete</mat-icon>
+  </button>
+		<button mat-icon-button aria-label="Example icon-button with a heart icon">
+    <mat-icon>undo</mat-icon>
+  </button>
+		<button mat-icon-button aria-label="Example icon-button with a heart icon">
+    <mat-icon>save</mat-icon>
+  </button>
+
+		<mat-form-field fxFlex="20%">
+
+			<mat-label>Ladungsträger</mat-label>
+			<select matNativeControl required>
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+              </select>
+		</mat-form-field>
+
+
+
+	</div>
+	<div fxLayout="row" fxLayoutGap="10px">
+		<mat-card fxFlex>
+
+			<mat-card-content fxLayout="column">
+
+				<div fxLayout="row" fxLayoutGap="10px">
+					<mat-form-field fxFlex>
+						<input matInput  disabled value="Google">
+  </mat-form-field>
+						<mat-form-field fxFlex>
+							<input matInput disabled value="Google">
+  </mat-form-field>
+							<mat-form-field fxFlex>
+								<input  matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+				</div>
+				<mat-form-field fxFlex>
+
+					<mat-label>Ladungsträger</mat-label>
+					<select matNativeControl required>
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+              </select>
+				</mat-form-field>
+				<div fxLayout="row" fxLayoutGap="10px">
+					<mat-form-field>
+						<input matInput placeholder="Company (disabled)" disabled value="Google">
+  </mat-form-field>
+						<mat-form-field>
+							<input matInput placeholder="Company (disabled)" disabled value="Google">
+  </mat-form-field>
+							<mat-form-field>
+								<input matInput placeholder="Company (disabled)" disabled value="Google">
+  </mat-form-field>
+				</div>
+				<div fxLayout="row" fxLayoutGap="10px">
+					<mat-form-field fxFlex="20%">
+						<input  matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+						<mat-form-field>
+							<input matInput placeholder="Company (disabled)" disabled value="Google">
+  </mat-form-field>
+				</div>
+
+			</mat-card-content>
+
+		</mat-card>
+
+		<mat-card fxFlex>
+
+			<mat-card-content fxLayout="column" fxLayoutAlign="flex-start center">
+				<div fxLayout="row" fxLayoutGap="5px">
+					<h4>Ladeöffnungszeiten</h4>
+				</div>
+
+				<div FxLayout="row">
+					<p>aslkjf salkjfaslkdfj sadlkfjsdalk fsadjlfaksd</p>
+					<p>aslkjf salkjfaslkdfj sadlkfjsdalk fsadjlfaksd</p>
+				</div>
+
+			</mat-card-content>
+
+		</mat-card>
+		<mat-card fxFlex>
+
+			<mat-card-content fxLayout="column" fxLayoutAlign="flex-start center">
+				<div fxLayout="row" fxLayoutGap="5px">
+					<h4>Verladevarianten</h4>
+				</div>
+
+				<div fxLayout="column" fxLayoutGap="10px">
+					<mat-slide-toggle>Slide me!</mat-slide-toggle>
+					<mat-slide-toggle>Slide me!</mat-slide-toggle>
+					<mat-slide-toggle>Slide me!</mat-slide-toggle>
+				</div>
+
+			</mat-card-content>
+
+		</mat-card>
+	</div>
+
+	<div fxLayout="row-reverse" fxLayoutAlign="center center" fxLayoutGap="5px">
+
+		<button  mat-raised-button>Annahme abschließen</button>
+		<button mat-raised-button>Annahme abschließen</button>
+		<button  mat-raised-button>Annahme abschließen</button>
+
+		<button  class="start" mat-raised-button>Annahme abschließen</button>
+
+	</div>
+
+
+	<div fxLayout="row " fxLayoutGap="20px" fxLayoutAlign="center flex-start">
+    <mat-card fxFlex>
+			<mat-card-header>
+
+				<mat-card-title>Beauftragte Spedition</mat-card-title>
+
+			</mat-card-header>
+
+			<mat-card-content fxLayout="column">
+
+				<div fxLayout="row">
+					<mat-form-field fxFlex>
+						<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+						<button mat-icon-button aria-label="Example icon-button with a heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+						<mat-form-field fxFlex="0 0 20%">
+							<input  matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+				</div>
+				<mat-form-field fxFlex>
+					<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+					<div fxLayout="row" fxLayoutGap="5px">
+						<mat-form-field fxFlex="0 0 20%">
+							<input matInput placeholder="Land" value="Sushi">
+  </mat-form-field>
+							<mat-form-field fxFlex="0 0 20%">
+								<input matInput placeholder="PLZ" value="Sushi">
+  </mat-form-field>
+								<mat-form-field fxFlex="1 0 50%">
+									<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+					</div>
+
+			</mat-card-content>
+
+		</mat-card>
+		<mat-card fxFlex>
+
+			<mat-card-header>
+				<mat-card-title>Fahrzeug und Fahrer</mat-card-title>
+			</mat-card-header>
+			<mat-card-content fxLayout="column">
+				<div fxLayout="row" fxLayoutGap="5px">
+					<mat-form-field fxFlex="25%">
+						<mat-label>Ladungsträger</mat-label>
+						<select matNativeControl required>
+              <option value="volvo">Land</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+              </select>
+					</mat-form-field>
+					<mat-form-field fxFlex>
+						<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+				</div>
+
+				<div FxLayout="row">
+					<mat-form-field fxFlex>
+						<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+				</div>
+
+			</mat-card-content>
+
+		</mat-card>
+
+		
+		<mat-card fxFlex="50%">
+			<mat-card-header>
+
+				<mat-card-title>Termin</mat-card-title>
+
+			</mat-card-header>
+
+			<mat-card-content fxLayout="column">
+
+				<div fxLayout="row">
+					<mat-form-field fxFlex>
+						<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+						<button mat-icon-button aria-label="Example icon-button with a heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+						<mat-form-field fxFlex="0 0 20%">
+							<input  matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+				</div>
+				<mat-form-field fxFlex>
+					<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+					<div fxLayout="row" fxLayoutGap="5px">
+						<mat-form-field fxFlex="0 0 20%">
+							<input matInput placeholder="Land" value="Sushi">
+  </mat-form-field>
+							<mat-form-field fxFlex="0 0 20%">
+								<input matInput placeholder="PLZ" value="Sushi">
+  </mat-form-field>
+								<mat-form-field fxFlex="1 0 50%">
+									<input matInput placeholder="Favorite food" value="Sushi">
+  </mat-form-field>
+					</div>
+
+			</mat-card-content>
+
+		</mat-card>
+	</div>
+
+
+
+	<!-- <div fxLayout="row-reverse" fxLayoutGap="5px">
+		<div class="red"> Vorlage laden</div>
+		<div class="yellow"> Vorlage laden</div>
+		<div class="blue"> Vorlage laden</div>
+		<div class="green start"> Localization</div>
+		<div class="green"> Localization</div>
+
+
+	</div>  -->
+
+</div>

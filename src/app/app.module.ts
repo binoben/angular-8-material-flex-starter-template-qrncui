@@ -12,6 +12,8 @@ import { TestComponent } from "./test/test.component";
 import { BenComponent } from "./ben/ben.component";
 import { BenMaterialComponent } from "./ben-material/ben-material.component";
 import { BenMenuComponent } from "./ben-menu/ben-menu.component";
+import { BenMaterial2Component } from "./ben-material-2/ben-material-2.component";
+
 
 @NgModule({
   imports: [
@@ -23,7 +25,7 @@ import { BenMenuComponent } from "./ben-menu/ben-menu.component";
 
     AppRoutingModule
   ],
-  declarations: [AppComponent, HomeComponent, TestComponent, BenComponent, BenMaterialComponent, BenMenuComponent],
+  declarations: [AppComponent, HomeComponent, TestComponent, BenComponent, BenMaterialComponent, BenMenuComponent, BenMaterial2Component],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
