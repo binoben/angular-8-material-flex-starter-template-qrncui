@@ -17,7 +17,6 @@ div{ border: 1px solid black} */
 
   .mat-badge-medium.mat-badge-above .mat-badge-content {
     top: -25px;
-}
-.badge{
-      margin-left: -3% !important;
+    right: -30px;
+
 }
