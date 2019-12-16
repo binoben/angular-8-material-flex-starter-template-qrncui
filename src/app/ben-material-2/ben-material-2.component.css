@@ -5,6 +5,9 @@ div{ border: 1px solid black} */
 .start{
   margin-right: auto;
 }
+.end{
+  margin-left: auto;
+}
 
 /*bug with angular 5 hot fix*/
 ::ng-deep .mat-form-field-infix {
